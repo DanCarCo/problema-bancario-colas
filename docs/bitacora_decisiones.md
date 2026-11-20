@@ -188,20 +188,46 @@ de colas de la semana 6.
   `requirements.txt`, README, `resultados/` versionado y esta bitácora en `docs/`.
 - **Justificación:** criterios "Implementación" y "Repositorio en GitHub" de la rúbrica (README, instrucciones,
   archivos y evidencias).
+- **Estado:** publicado como repositorio público `DanCarCo/problema-bancario-colas`. Visibilidad y nombre los eligió el
+  usuario. Se sube **solo** el contenido de `problema-bancario/`; todo lo demás queda fuera.
 
-### D-19 · Guion de video
-- **Decisión (por indicación del usuario):** **no se redacta aún**. Cuando se haga, deberá apoyarse en D-03, D-05,
-  D-11, D-14 y D-15, que son lo que más conviene explicar.
+### D-19 · Alcance del repositorio frente a los demás entregables
+- **Decisión (por indicación del usuario):** el informe Word, la presentación de diapositivas y el guion del video
+  **no** van en GitHub; se mantienen en la carpeta superior `Colas/`, junto con sus generadores
+  (`construir_informe.py`, `construir_presentacion.py`).
+- **Justificación:** el repositorio debe contener lo reproducible (código, datos, evidencias); los documentos de
+  entrega se suben a Canvas.
+- **Consecuencia:** esos generadores leen `problema-bancario/resultados/`, por lo que se actualizan si se vuelve a simular.
+
+### D-20 · Número de réplicas definitivo
+- **Decisión (a pedido del usuario):** pasar de 434 a **1000 réplicas** (ver D-11). Se volvió a correr el script
+  completo desde cero y reprodujo los mismos resultados (semillas fijas).
+
+### D-21 · Presentación y guion del video
+- **Decisión:** 9 diapositivas y un guion para **tres voces** con un tope de 7 minutos. El guion tiene 792 palabras
+  (≈ 6:20 a 125 palabras/min), repartidas 266 / 237 / 289 para equilibrar los turnos y dejar margen para pausas.
+- **Reparto:** voz 1 = problema y modelo (D-03, D-05); voz 2 = simulación y puntos 1 a 3 (D-11, D-13); voz 3 =
+  puntos 4 y 5 y conclusiones (D-14, D-15, D-17).
+- **Criterio de contenido:** se dice abiertamente que el umbral de 5 min es un supuesto y que la respuesta al punto 4
+  depende de él.
+- **Pendiente:** los nombres de los integrantes y del grupo están como marcadores.
+
+### D-22 · Colaboración de Claude
+- **Decisión:** dejar constancia en el README de que Claude (asistente de IA de Anthropic) colaboró en el modelado,
+  la implementación, el análisis y la documentación, y firmar los *commits* con `Co-Authored-By`.
+- **Justificación:** transparencia sobre la autoría. Las decisiones de interpretación quedan en esta bitácora
+  para que el equipo las revise y las asuma.
 
 ---
 
 ## Pendientes y riesgos abiertos
 
-| # | Pendiente | Responsable |
-|---|-----------|-------------|
-| 1 | Informe en Word/PDF (portada, índice, Introducción, Metodología, Resultados, Conclusiones, Anexos) | por hacer |
-| 2 | Nombre del archivo final `Apellido_Nombre_problemaBancario` — falta confirmar apellido/nombre | usuario |
-| 3 | Crear/publicar el repositorio en GitHub y pegar el enlace en Canvas | usuario |
-| 4 | Guion y grabación del video de sustentación | pospuesto |
-| 5 | Confirmar que el umbral de 5 min (D-14) es aceptable para el asesor; si no, ajustar | usuario |
-| 6 | Entrega por Canvas: vence el domingo 22 de nov a las 23:59 (2 intentos) | usuario |
+| # | Pendiente | Responsable | Estado |
+|---|-----------|-------------|--------|
+| 1 | Informe en Word/PDF (portada, índice, Introducción, Metodología, Resultados, Conclusiones, Anexos) | equipo | borrador listo; falta revisar y llenar datos personales |
+| 2 | Nombre del archivo final `Apellido_Nombre_problemaBancario` | usuario | falta apellido/nombre |
+| 3 | Repositorio en GitHub y enlace en el informe y en Canvas | usuario | repositorio creado; falta pegar el enlace |
+| 4 | Nombres de integrantes y grupo en diapositivas y guion | usuario | por llenar |
+| 5 | Grabación y subida del video de sustentación (máx. 7 min, 3 voces) | equipo | guion listo; falta grabar |
+| 6 | Confirmar que el umbral de 5 min (D-14) es aceptable para el asesor; si no, ajustar | usuario | abierto |
+| 7 | Entrega por Canvas: vence el domingo 22 de nov a las 23:59 (2 intentos) | usuario | abierto |

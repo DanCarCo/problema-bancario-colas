@@ -42,3 +42,17 @@ son reproducibles.
 | 5 | 2 cajeros de retiros + 1 de pagos (Wq 3,87 vs 5,24 min) |
 
 Detalles y justificaciones en la bitácora.
+
+## Colaboración
+
+Este repositorio se desarrolló en equipo con **Claude** (asistente de IA de Anthropic, modelo Claude Sonnet 5.5),
+que participó como colaborador en:
+
+* el modelado del sistema y la implementación de la simulación (`simulacion_banco.py`);
+* el análisis estadístico y la validación contra la fórmula de Pollaczek–Khinchine;
+* la redacción de la bitácora de decisiones, el README y el borrador del informe;
+* la presentación de diapositivas y el guion del video (estos dos quedan fuera del repositorio).
+
+Las decisiones de interpretación del enunciado y los supuestos (por ejemplo el umbral de 5 min) quedan registrados en
+`docs/bitacora_decisiones.md` para que el equipo los revise y los haga suyos. Los *commits* en los que Claude
+participó llevan la línea `Co-Authored-By: Claude`.
