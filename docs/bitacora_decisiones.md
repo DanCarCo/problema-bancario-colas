@@ -192,12 +192,15 @@ de colas de la semana 6.
   usuario. Se sube **solo** el contenido de `problema-bancario/`; todo lo demás queda fuera.
 
 ### D-19 · Alcance del repositorio frente a los demás entregables
-- **Decisión (por indicación del usuario):** el informe Word, la presentación de diapositivas y el guion del video
-  **no** van en GitHub; se mantienen en la carpeta superior `Colas/`, junto con sus generadores
-  (`construir_informe.py`, `construir_presentacion.py`).
-- **Justificación:** el repositorio debe contener lo reproducible (código, datos, evidencias); los documentos de
-  entrega se suben a Canvas.
-- **Consecuencia:** esos generadores leen `problema-bancario/resultados/`, por lo que se actualizan si se vuelve a simular.
+- **Decisión (por indicación del usuario):** la presentación de diapositivas y el guion del video **no** van en GitHub;
+  se mantienen en la carpeta superior `Colas/`, junto con sus generadores (`construir_informe.py`,
+  `construir_presentacion.py`).
+- **Actualización (22-nov-2026):** el documento final de entrega, `docs/Carvajal_Sandoval_Velasquez_Colas.docx`,
+  **sí** se incorporó al repositorio. Es la versión del equipo, elaborada a partir del borrador generado
+  (`informe_borrador.docx`, que sigue fuera del repositorio).
+- **Justificación:** el repositorio debe contener lo reproducible (código, datos, evidencias) y ahora también el
+  documento entregado, para que quien revise el repositorio tenga todo en un solo lugar.
+- **Consecuencia:** los generadores leen `problema-bancario/resultados/`, por lo que se actualizan si se vuelve a simular.
 
 ### D-20 · Número de réplicas definitivo
 - **Decisión (a pedido del usuario):** pasar de 434 a **1000 réplicas** (ver D-11). Se volvió a correr el script
@@ -210,7 +213,9 @@ de colas de la semana 6.
   puntos 4 y 5 y conclusiones (D-14, D-15, D-17).
 - **Criterio de contenido:** se dice abiertamente que el umbral de 5 min es un supuesto y que la respuesta al punto 4
   depende de él.
-- **Pendiente:** los nombres de los integrantes y del grupo están como marcadores.
+- **Actualización (22-nov-2026):** se completaron en la presentación los datos del equipo: integrantes, grupo
+  PREICA2602B020045, institución, asesor, asignatura y fecha. Los pies de diapositiva pasaron de
+  «Integrante 1/2/3» a los nombres, en el orden de la portada de la documentación.
 
 ### D-22 · Colaboración de Claude
 - **Decisión:** dejar constancia en el README de que Claude (asistente de IA de Anthropic) colaboró en el modelado,
@@ -218,16 +223,11 @@ de colas de la semana 6.
 - **Justificación:** transparencia sobre la autoría. Las decisiones de interpretación quedan en esta bitácora
   para que el equipo las revise y las asuma.
 
----
-
-## Pendientes y riesgos abiertos
-
-| # | Pendiente | Responsable | Estado |
-|---|-----------|-------------|--------|
-| 1 | Informe en Word/PDF (portada, índice, Introducción, Metodología, Resultados, Conclusiones, Anexos) | equipo | borrador listo; falta revisar y llenar datos personales |
-| 2 | Nombre del archivo final `Apellido_Nombre_problemaBancario` | usuario | falta apellido/nombre |
-| 3 | Repositorio en GitHub y enlace en el informe y en Canvas | usuario | repositorio creado; falta pegar el enlace |
-| 4 | Nombres de integrantes y grupo en diapositivas y guion | usuario | por llenar |
-| 5 | Grabación y subida del video de sustentación (máx. 7 min, 3 voces) | equipo | guion listo; falta grabar |
-| 6 | Confirmar que el umbral de 5 min (D-14) es aceptable para el asesor; si no, ajustar | usuario | abierto |
-| 7 | Entrega por Canvas: vence el domingo 22 de nov a las 23:59 (2 intentos) | usuario | abierto |
+### D-23 · Grabación, enlace y entrega
+- **22 de noviembre de 2026:** el video de sustentación se **grabó hoy**.
+- El enlace al video se agregó en la documentación (Anexo D del documento de entrega).
+- El proyecto se **entregó**: documento, repositorio de GitHub y video.
+- **Revisión previa del documento** (solo lectura, sin modificarlo): estructura completa (Introducción, Objetivos,
+  Metodología, Resultados, Conclusiones, Limitaciones, Anexos y Referencias), cifras coherentes con
+  `resultados/resumen.json` y enlaces al repositorio y a Drive presentes. Observación: la copia
+  revisada en `docs/` tenía el encabezado del Anexo D (video) sin la URL.

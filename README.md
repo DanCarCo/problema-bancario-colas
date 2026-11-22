@@ -21,6 +21,7 @@ son reproducibles.
 |---|---|
 | `simulacion_banco.py` | Modelo, réplicas, estadísticas, figuras |
 | `docs/bitacora_decisiones.md` | Decisiones de modelado y de análisis, con evidencia |
+| `docs/Carvajal_Sandoval_Velasquez_Colas.docx` | Documento final de la actividad (Introducción, Metodología, Resultados, Conclusiones y anexos) |
 | `resultados/` | Salidas de la simulación |
 
 ## Resumen del modelo
